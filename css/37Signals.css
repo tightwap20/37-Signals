@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	
+	}
+
+h1 {
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 58px;
+}
+
+
+#header a{
+	color:#369;  
+	text-decoration:none;
+}
+#header a.Weekday {
+	float: left;
+	padding-top: 3px;
+	padding-left: 58px;
+	color: #999;
+}
+ul.nav {
+	/*margin-right: -30px;*/
+	text-align: right;
+	list-style: none;
+	padding-top: 27px;
+	padding-bottom: 1px;
+	padding-right: 95px;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	}
+
+ul.nav li {
+	display:inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+#container{
+	margin: auto 200px;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 28px;
+	padding-right: 16px;
+
+}
