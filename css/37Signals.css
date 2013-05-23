@@ -1,16 +1,40 @@
 body{
 	text-align: center;
-	
 	}
 
 h1 {
+	display: block;
 	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 	font-weight: 500;
 	font-style: normal;
 	font-size: 58px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	letter-spacing: -2px;
+	line-height: 1.0em;
+	clear: both;
 }
-
-
+h3{
+	font-size: 21px;
+	margin: 5px 0 0 10px;
+	color: #369;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: bold;
+}
+h4{
+	margin: 10px 0 10px;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+h5 {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: 10px 0;
+}
 #header a{
 	color:#369;  
 	text-decoration:none;
@@ -22,29 +46,50 @@ h1 {
 	color: #999;
 }
 ul.nav {
-	/*margin-right: -30px;*/
 	text-align: right;
 	list-style: none;
 	padding-top: 27px;
 	padding-bottom: 1px;
-	padding-right: 95px;
+	padding-right: 65px;
 	font-size: 12px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-	}
-
+}
 ul.nav li {
 	display:inline;
 	padding-left: 10px;
 	padding-right: 10px;
-	}
-
+}
 #container{
 	margin: auto 200px;
 }
-
 .logo {
 	text-align: center;
-	padding-top: 28px;
+	padding-top: 35px;
 	padding-right: 16px;
+}
+ul.centerpics{
+	padding-left: 150px;
+}
+ul.centerpics li {
+	float:left;
+	list-style: none;
+	width: 150px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	margin: 30px 20px;
+	padding: 30px 15px;
+}
+ul.centerpics li a{
+	text-decoration: none;
+}
+ul.centerpics li h3{
+	text-decoration: underline;
+}
+ul.centerpics li h5{
+	padding-top: 10px;
+}
+a.basecampic{
+	border-radius: 5px;
+	text-align: left;
 
 }
