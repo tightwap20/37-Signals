@@ -161,3 +161,39 @@ padding: 40px 0px;
 	display: inline-block;
 	vertical-align: top;
 }
+.container-3 a{
+	margin-left: 390px;
+	position: absolute;
+	margin-top: 80px;
+	text-decoration: none;
+	font-size: 10px;
+}
+.container-3 a:hover{
+	text-decoration: underline;
+}
+.container-3 h2{
+	margin-top: 0px;
+	background-repeat: no-repeat;
+	background-image: url(http://37signals.com/images/arrow-rework.png);
+	background-position: right bottom;
+}
+.container-3 a.book{
+	margin-top: 10px;
+	margin-right: 0px;
+	position: inherit;
+	float: left;
+	margin-left: 0px;
+}
+.container-3 h3{
+	margin: 20px 0px;
+	padding-top: 60px;
+	font-style: italic;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-size: 22px;
+	color: #888;
+	font-weight: normal;
+	}
+.container-3 h3.wisdom{
+	padding-top: 30px;
+	text-align: left;
+}
