@@ -14,6 +14,19 @@ h1 {
 	line-height: 1.0em;
 	clear: both;
 }
+h2 {
+	background-image:url(http://37signals.com/images/arrow-customer.png);
+	background-repeat: no-repeat;
+	background-position:left bottom;
+	display: block;
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+}
 h3{
 	font-size: 21px;
 	margin: 5px 0 0 10px;
@@ -60,36 +73,91 @@ ul.nav li {
 	padding-right: 10px;
 }
 #container{
-	margin: auto 200px;
+	margin: auto auto;
+	width: 820px;
 }
 .logo {
 	text-align: center;
 	padding-top: 35px;
 	padding-right: 16px;
 }
-ul.centerpics{
-	padding-left: 150px;
+#Middle{
+	text-align: center;
+	padding-left: 80px;
 }
-ul.centerpics li {
+#Middle div {
 	float:left;
+	display: inline-block;
 	list-style: none;
 	width: 150px;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	margin: 30px 20px;
 	padding: 30px 15px;
+	background-image: linear-gradient(to bottom,rgb(255,255,255),rgb(243,238,238));
 }
-ul.centerpics li a{
+#Middle a{
 	text-decoration: none;
 }
-ul.centerpics li h3{
+#Middle h3{
 	text-decoration: underline;
 }
-ul.centerpics li h5{
+#Middle h5{
 	padding-top: 10px;
+
 }
 a.basecampic{
 	border-radius: 5px;
 	text-align: left;
-
+}
+#container .customers p{
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #666;
+	margin: 30px 0px;
+}
+#container .customers img{
+	float:right;
+}
+#container .customers .companies img{
+	text-align: center;
+}
+hr {
+clear: both;
+border: 0;
+background: white url(http://37signals.com/images/img-hr.png) no-repeat scroll 50% 50%;
+color: transparent;
+height: 12px;
+padding: 40px 0px;
+}
+.secondh2{
+	background: none;
+	margin-top: 0px;
+}
+.container-2 ol{
+	padding-left: 0px;
+	float: left;
+	width: 40%;
+	margin-right: 40px;
+	text-align: left;
+	list-style: decimal; 
+	margin-left: 5%;
+	vertical-align: top;
+}
+.container-2 ol li{
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	color: #ccc;
+	vertical-align: top;
+}
+.container-2 ol p{
+	display: inline-block;
+	vertical-align: top;
+}
+.container-2 h4{
+	display: inline-block;
+	vertical-align: top;
 }
