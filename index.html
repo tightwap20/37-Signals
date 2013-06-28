@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>37 Signals</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/37Signals.css" media="screen">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="Signals.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -21,25 +24,48 @@
 	<div class="logo">
 		<img src="http://37signals.com/images/logo-37s-large.png">
 	</div>
-
 	<div class="Main">
 		<h1>Making collaboration productive and enjoyable for people every day.</h1>
 
 		<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
 	</div>
+	<div class="Project man">
+		<h1><span>Basecamp</span> is a project management tool you wish you had on your last project.</h1>
+
+		<h5>Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</h5>
+	</div>
+	<div class="Contract man">
+		<h1><span>Highrise</span>  remembers the important things about people you’d normally forget.</h1>
+
+		<h5>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h5>
+	</div>
+	<div class="Realtime man">
+		<h1><span>Campfire</span>   helps teams work together over the web in real-time.</h1>
+
+		<h5>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</h5>
+	</div>
 	<div id="Middle">
-		<div>
+		<div class="upperarrow 1">
+			<img src="http://37signals.com/images/arrow-left.png">
+		</div>
+		<div class="basecamp">
 			<a class="Basecampic" href="http://basecamp.com/?source=37signals+home">
 			<img src="http://37signals.com/images/logo-bc.png">
 			<h3>Basecamp</h3>
 			<h4>manage Projects</h4>
 			<h5>Used by millions for project management.</h5></a>
 		</div>
+		<div class="upperarrow 2">
+			<img src="http://37signals.com/images/arrow-left.png">
+		</div>
 		<div><a class="Highrise" href="#">
 			<img src="http://37signals.com/images/logo-hr.png">
 			<h3>Highrise</h3>
 			<h4>Manage Contracts</h4>
 			<h5>Know the people you do business with</h5></a>
+		</div>
+		<div class="campfirearrow">
+			<img src="http://37signals.com/images/arrow-right.png">
 		</div>
 		<div>
 			<a class="Campfire" href ="#">
@@ -53,6 +79,9 @@
 	<div class="customers">
 		<div class="customersimg">
 			<a href="http://37signals.com/customers"></a>
+		</div>
+		<div class="pointer">
+			<img src="http://37signals.com/images/arrow-customer.png"></a>
 		</div>
 		<div>
 			<h2>
@@ -112,7 +141,6 @@
 					<span>
 						We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.
 					</span></h4>
-				</h4>
 			</li>
 			<li>
 				<h4>Software should be easy

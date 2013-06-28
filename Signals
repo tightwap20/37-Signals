@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	$(#Middle).find(".Basecampic").on("mouseover", "div", function () {
+		$(this).find(".main").remove
+		$(this).prepend("<h1>Basecamp is the project management tool you wish you had on your last project.<h1>")
+	});
+
+});
